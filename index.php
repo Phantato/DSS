@@ -22,6 +22,7 @@ if(isset($_SESSION["id"]))
 {
     echo "<p>Welcom, " . $_SESSION["user"] . "</p>";
 ?>
+<button type="button" name="tree" onclick="javascript:window.location.href='./tree/index.php'">tree</button>
 <button type="button" name="logout" onclick="javascript:window.location.href='./user/logout.php'">logout</button>
 <?php
 }

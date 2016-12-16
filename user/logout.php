@@ -3,5 +3,5 @@ session_start();
 session_destroy();
 ?>
 <script type="text/javascript">
-    history.go(-1);
+    window.location.href="/DSS/"
 </script>
